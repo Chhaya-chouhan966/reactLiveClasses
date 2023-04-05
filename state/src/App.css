@@ -1,0 +1,16 @@
+.App{
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+button{
+  color: white;
+  background-color: cadetblue;
+  border: none;
+}
