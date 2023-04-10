@@ -1,0 +1,42 @@
+.nav {
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navLeft {
+    width: 40%;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.navRight {
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid yellow; */
+
+}
+.navRight h3{
+    color: yellow;
+    /* font-size: 1.2rem; */
+    padding: 0.5rem;
+    text-decoration: none;
+
+}
+button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.navRight .span{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 10px white;
+}
