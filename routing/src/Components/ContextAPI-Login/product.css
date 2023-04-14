@@ -1,0 +1,27 @@
+.productCard{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
+    
+}
+.productImgCard{
+    width: 370px;
+    height: 350px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
+   
+} 
+.productImgCard img{
+    margin-top: 1rem;
+}
+.productImgCard button{
+      height: 40px;
+      font-size: 1rem;
+      text-align: center;
+}

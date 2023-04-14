@@ -1,0 +1,44 @@
+.navBar{
+    display: flex;
+    padding: 1.3rem 2rem;
+    background-color: black;
+    color: white;
+}
+.navBar .navLeft{
+    width: 40%;
+}
+.navBar .navRight{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid green; */
+    
+}
+.navBar .navRight a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: red;
+    /* border: 2px solid wheat; */
+}
+.ProductContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 1rem;
+}
+.productCart{
+    height: 400px;
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin: 1rem 3rem;
+}
+
+

@@ -2,15 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import CustomProvider from './Components/ContextAPI-Login/contex';
+import DataProvider from './DesignCom/Contex'
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <CustomProvider>
-        <App />
-    </CustomProvider>
 
-
+  <BrowserRouter>
+    < DataProvider>
+      <App />
+    </DataProvider>
+  </BrowserRouter>
 );
 
 
