@@ -14,7 +14,6 @@ const Gallery = () => {
             setGet(data.results)
         })
     }, [datas])
-    // console.log(get);
 
     return (
         <div className="gallery">
@@ -32,7 +31,6 @@ const Gallery = () => {
             <div className="result">
                 {
                     get.map((ele) => {
-                        console.log(ele);
                         return (
                             <div key={ele.id} className="resultContaner">
                                 <p className='p'>{ele.alt_description}</p>
