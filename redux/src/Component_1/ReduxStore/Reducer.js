@@ -1,5 +1,5 @@
  const initialState={
-    myName:"tani"
+    myName:"kajl"
  }
  
  const basicReducer= (storeData=initialState, action) =>{

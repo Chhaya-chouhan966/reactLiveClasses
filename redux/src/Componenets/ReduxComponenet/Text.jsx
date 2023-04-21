@@ -2,13 +2,13 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 
 const Text = () => {
-    const datas = useSelector((storedata) => {
-        return storedata;
+    
+    const datas = useSelector((data) => {
+        return data;
     })
-   
     return (
-        <div>
-            <h2>Text Component</h2>
+        <div style={{textAlign:"center"}}>
+            <h2>Display Data</h2>
             <p>{datas.name}</p>
         </div>
     );

@@ -1,24 +1,19 @@
-import { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Button from './Button';
-import Display from './Display';
-// import State from './State';
+import Input from './Component/Input';
 
 function App() {
-  const [time, setTime] = useState({ h: 0, m: 0, s: 0, ms: 0 })
-  
-  var updatedHo
 
-  const Start = () => {
-
-  }
-
+  // const Data={
+  //      type:"name",
+  //      color:"red"
+  // }
   return (
-    <div className="App">
-      {/* <State/> */}
-      <Display time={time} />
-      <Button  start={Start}/>
+    <div className='app'>
+      {/* <Input value={Data}/> */}
+      <Input />
     </div>
+
   );
 }
 

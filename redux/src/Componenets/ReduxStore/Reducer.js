@@ -1,5 +1,7 @@
 var initailData = {
-    name: "tani"
+    name: "tani",
+    product: [],
+    value:0
 }
 
 const basicReducer = (storedata = initailData, action) => {
@@ -8,7 +10,16 @@ const basicReducer = (storedata = initailData, action) => {
         return {
             ...storedata,
             name: action.username
-
+        }
+    } else if (action.type === "product") {
+        return {
+            ...storedata,
+            product: action.payload
+        }
+    } else if (action.type === "count") {
+        return {
+            ...storedata,
+            value: action.count
         }
     }
     return storedata;

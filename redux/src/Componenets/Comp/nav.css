@@ -1,5 +1,6 @@
 .nav{
     height: 70px;
+    width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -19,4 +20,39 @@
     font-size: 1.2rem;
     color: yellow;
     text-decoration: none;
+}
+.allProduct{
+    /* border: 2px solid red; */
+    margin-top: 3rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.singleProduct{
+    width: 350px;
+    height: 450px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 3rem;
+    box-shadow: 0 0 5px black;
+}
+.cart{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+
+
+}
+.singleCart{
+    height: 550px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }

@@ -1,8 +1,15 @@
 import React from 'react'
 import  './nav.css'
-import {Link} from "react-router-dom"
+import {Link, useParams} from "react-router-dom"
+import { useSelector } from 'react-redux'
+
 
 const Nav = () => {
+  const {id}=useParams()
+  const {value} =useSelector( (countData) =>{
+    return countData;
+  })
+
   return (
     <div className='nav'>
         <div className="navLeft">
@@ -11,7 +18,7 @@ const Nav = () => {
         <div className="navRight">
             <Link to='/'>Home</Link>
             <Link to="/product">Product</Link>
-            <Link to="/technology">Technology</Link>
+            <Link to={`/cart/${id}`}>Cart<sup style={{color:"red"}}>{value}</sup></Link>
             <Link to="/redux">Input</Link>
         </div>
     </div>
