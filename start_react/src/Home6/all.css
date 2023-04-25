@@ -42,7 +42,6 @@ a:hover{
 }
 .main{
     height: 70%;
-    /* border: 2px solid blue; */
     display: flex;
 }
 .mainLeft{
@@ -64,4 +63,5 @@ a:hover{
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
