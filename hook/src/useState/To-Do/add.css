@@ -1,0 +1,42 @@
+
+.adds{
+    width: 40%;
+     /* border: 2px solid red; */
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+
+}
+.h1{
+   background-color: purple;
+   padding: 0.5rem;
+   width: 100%;
+   text-align: center;
+}
+.InpBtn{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input, button{
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+button{
+    background-color: purple;
+    border: 2px solid purple;
+}
+.todo{
+    width: 50%;
+    margin-top: 1rem;
+}
+.todo li{
+    padding-left: 1rem;
+    border: 2px solid red;
+}

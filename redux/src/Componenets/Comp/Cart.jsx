@@ -58,7 +58,7 @@ const Cart = () => {
         <div className='cart'>
              
             {
-               ( clicked ) ? (
+                clicked ? (
                     <div className='singleCart'>
                         <h1 style={{ color: "green" }}>Shopping List</h1>
                         <h2>{cart.category}</h2>
