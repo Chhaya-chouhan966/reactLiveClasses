@@ -1,0 +1,65 @@
+.component{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.headarLeft{
+    width: 60%;
+    display: flex;
+}
+.headarLeftLogo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headarleftHome{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.headerRight{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signIn{
+    padding: 0.5rem 1.5rem;
+    background-color: #278741;
+    border: none;
+    color: white;
+}
+.main{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-color: #19325b;
+}
+.demoBtn{
+    padding: 0.5rem 1rem;
+    background-color: #278741;
+    border: 2px solid #278741;
+    color: white;
+}
+.footer{
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}

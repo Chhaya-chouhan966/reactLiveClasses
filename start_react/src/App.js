@@ -1,10 +1,12 @@
 import './App.css';
-import WarpCom from './Home6/WarpCom';
+import Component from './Assign6/Component';
+// import WarpCom from './Home6/WarpCom';
 
 function App() {
   return (
     <div className="App">
-         <WarpCom/>
+         {/* <WarpCom/> */}
+         <Component/>
     </div>
   );
 }
