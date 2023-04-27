@@ -1,5 +1,5 @@
 import './App.css';
-import Netflix from './classComponent/NetflixCom/Netflix';
+import Netflix from './NetflixCom/Netflix';
 // import ApiCom from './classComponent/ApiCom';
 // import BasicClassComp from './classComponent/BasicClassComp';
 // import CounterApp from './classComponent/Counter';
@@ -10,7 +10,6 @@ import Netflix from './classComponent/NetflixCom/Netflix';
 // import ProfileChang from './useState/Component2/ProfileChang';
 // import State from './useState/Component/State';
 // import Counter from './useReducer/Counter';
-
 function App() {
   return (
     <div className="App">
