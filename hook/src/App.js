@@ -20,10 +20,10 @@ function App() {
       {/* < Adds/> */}
       {/* < Api/> */}
       {/* < UseRef/> */}
-      {/* <CounterApp /> */}
       {/* <BasicClassComp data="hello it is pass data as props in comstructor"/> */}
       {/* <ApiCom/> */}
       <Netflix/>
+      {/* <CounterApp /> */}
     </div>
   );
 }
