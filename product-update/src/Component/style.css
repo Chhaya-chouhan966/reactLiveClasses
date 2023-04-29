@@ -1,0 +1,23 @@
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    box-shadow: 0 0 5px cornflowerblue;
+}
+button{
+    background-color: cornflowerblue;
+    padding: 0.5rem 1rem;
+    border: none;
+}
