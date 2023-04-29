@@ -7,6 +7,7 @@ const List = ({ todoData, Delet, toggle }) => {
     <div>
       {
         todoData.map((ele, index) => {
+
           return <div className='itemList' key={index}>
             <h3 className='head3'>{ele.title}</h3>
 
