@@ -1,0 +1,59 @@
+.nav{
+    height: 100%;
+    width: 13%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMiddels{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMiddels a{
+   text-decoration: none;
+   font-size: 1.1rem; 
+   color: gray;
+}
+.navMiddels a:hover{
+    color: #c84f2a;
+}
+.navFooter{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navFooterIcon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navFooterIcon a{
+    color: gray;
+}
+
+.navFooterButton{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c84f2a;
+
+}
+.navFooterButton button{
+     height: 100%;
+     width: 100%;
+     background-color: #c84f2a;
+     color: white;
+     border: none;
+}

@@ -1,0 +1,77 @@
+.QuickOrderAddToCart{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(250,250,250,0.1),rgba(250,250,250,0.1)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBVUuSZTm0qWoWqnGgOQGoPFrOxSbVYvVbMJWx5M6Nlte2DoLthfbPK4HzZQnWbQQ4SJk&usqp=CAU");
+    background-size: 100% 100%;
+    padding-left: 4rem;
+    padding-top:3rem ;
+}
+.cartHeader{
+    height: 85%;
+    width: 30%;
+}
+.cartHeaderHead{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edc5a2;
+}
+.cartHeaderFooter{
+    height: 82%;
+    width: 100%;
+    background-color: #cec9cb;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.email input{
+  border-radius: 5px;
+}
+.phone{
+    width: 100%;
+}
+.phone input{
+  border-radius: 5px;
+}
+
+.pizzaSize input{
+    height: 30%;
+    width: 5%;
+}
+
+.tooping input{
+    height: 30%;
+    width: 5%;
+}
+
+.agree input{
+    height: 45%;
+    width: 5%;
+}
+
+.cartFooter{
+    width: 30%;
+    height: 10%;
+    border: 2px solid #cec9cb;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf4d21;
+
+}
+.cartFooter button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: #cf4d21;
+    color: white;
+    border: none;
+}

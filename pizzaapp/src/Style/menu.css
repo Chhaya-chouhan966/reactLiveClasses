@@ -1,0 +1,79 @@
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headeLeft{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headeLeft a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.headeLeft a:hover{
+   background-color: #d3401e;
+   padding: 1rem 1rem;
+   color: white;
+}
+.headerRight{
+    height: 100%;
+    width: 30%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainContainer{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3401e;
+    color: white;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.FooterMenu{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 2rem;
+
+}
+.FooterMenu img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

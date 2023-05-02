@@ -39,9 +39,26 @@
     margin-top: 1rem;
     box-shadow: 0 0 2px black;
 
+
+}
+.chekBoxHead3{
+    height: 2rem;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0.5rem;
+
+}
+.chekBoxHead3 .cheakBox{
+    height: 1rem;
+    width: 2rem;
+
 }
 .head3{
     padding-left: 0.5rem;
+    /* border: 2px solid red; */
+
 }
 .toggleBtn{
     width: 60%;
@@ -50,7 +67,8 @@
     align-items: center;
 }
 .toggle,
-.del{
+.del,
+.edit{
   padding: 0.3rem 1rem;
   color: white;
   background-color: cadetblue;
